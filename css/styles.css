@@ -1,0 +1,21 @@
+body{
+  overflow-x: hidden;
+}
+#landing{
+  background-image:url("https://cdn.pixabay.com/photo/2016/08/14/12/41/water-lily-1592793__340.png");
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  height:550px;
+  width:100%;
+}
+#welcome{
+  padding-top:170px;
+}
+#navigation{
+  padding-top:10px;
+  padding-left:250px;
+}
+
+
