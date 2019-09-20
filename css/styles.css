@@ -17,5 +17,14 @@ body{
   padding-top:10px;
   padding-left:250px;
 }
+.overlay{
+  background-image:url("https://cdn.pixabay.com/photo/2013/09/19/16/44/sky-183870__340.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  height:220px;
+  width:100%;
+}
 
 
