@@ -26,5 +26,14 @@ body{
   height:220px;
   width:100%;
 }
+#hand{
+  padding-top:3px;
+  float:right;
+  position: absolute;
+}
+#pizza{
+  padding-left:10px;
+  margin-left:60px;
+}
 
 
