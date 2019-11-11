@@ -29,11 +29,16 @@ body{
 #hand{
   padding-top:3px;
   float:right;
-  position: absolute;
+  position:sticky;
+  
 }
 #pizza,#delani,#exo,#daktari,#princess,#quote{
   padding-left:10px;
   margin-left:140px;
+}
+#abs{
+  margin-top:40px;
+  height:400px;
 }
 
 
