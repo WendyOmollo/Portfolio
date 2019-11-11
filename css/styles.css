@@ -23,7 +23,7 @@ body{
   background-position:center center;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  height:220px;
+  height:750px;
   width:100%;
 }
 #hand{
@@ -31,9 +31,9 @@ body{
   float:right;
   position: absolute;
 }
-#pizza{
+#pizza,#delani,#exo,#daktari,#princess,#quote{
   padding-left:10px;
-  margin-left:60px;
+  margin-left:140px;
 }
 
 
