@@ -2,7 +2,7 @@ body{
   overflow-x: hidden;
 }
 #landing{
-  background-image:url("https://cdn.pixabay.com/photo/2016/08/14/12/41/water-lily-1592793__340.png");
+  background-image:url("https://images.unsplash.com/photo-1523992038393-d5ab874a077e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
@@ -26,11 +26,14 @@ body{
   height:750px;
   width:100%;
 }
+.overlay2{
+	
+}
 #hand{
   padding-top:3px;
   float:right;
   position:sticky;
-  
+
 }
 #pizza,#delani,#exo,#daktari,#princess,#quote{
   padding-left:10px;
