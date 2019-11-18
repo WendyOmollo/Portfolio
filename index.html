@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -19,105 +20,90 @@
 </head>
 
 <body>
+	<nav>
+<img id="logo" src="images/logo.jpg" width="">
+		<ul>
+		<a href='#aboutme'><li>About me</li></a>
+		<a href='#hobbies'><li>Skill set</li></a>
+		<a href='#portfolio'><li>Projects</li></a>
+		</ul>
+	</nav>
   <div id='landing'>
+
     <h1 id='welcome' class='text-center text-dark'>Wendy Omollo</h1>
     <p class="text-center text-dark">Software Programmer</p>
     <p class='text-center text-dark'>UI/UX Designer</p>
     <p class='text-center text-dark'>Mobile Apps Developer</p>
-    <div id='navigation' class='container'>
-      <a href='#aboutme'><button type="button" class="btn btn-primary wiggle">About me</button></a>
-      <a href='#portfolio'><button type="button" class="btn btn-primary wiggle ">Projects</button></a>
-      <a href='#hobbies'><button type="button" class="btn btn-primary wiggle">Hobbies</button></a>
-      <a href='#contact'><button type="button" class="btn btn-primary wiggle">Contact me</button></a>
-    </div>
   </div>
   <div class='container' id='abs'>
-    <h2 id='aboutme' class='text-center pulse'>About Me</h2>
+    <h2 id='aboutme' class='text-center'>About Me</h2>
     <div class='row'>
-      <div class='col-md-6'>
-        <p class='text-center'>I am a Software Programmer at Moringa School.I have a passion for coding.I am familiar
-          with the following languages:</p>
-        <ol>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Java</li>
-          <li>JQuery</li>
-          <li>Kotlin</li>
-        </ol>
-      </div>
-      <div class='col-md-6'>
-        <p>I am familiar with the following frameworks:</p>
-        <ol>
-          <li>Angular</li>
-          <li>Spark</li>
-          <li>Android Studio</li>
-          <li>Ionic</li>
-        </ol>
+      <div class='col-md-12'>
+        <p class='text-center'>I am a Software Programmer at Moringa School.I have a passion for coding.</p>
+				<p class="text-center">I finished high school in 2018. </p>
+				<p class="text-center">I want pursue Computer Science in campus in 2020.</p>
+				<p class="text-center">I also love singing : it is my talent.</p>
+				<p class="text-center">My mantra is:<em>Be fruitful,Multiply,Fill and Subdue.</em></p>
       </div>
     </div>
   </div>
 
-  <div class='container'>
-    <div class='overlay'>
+  <div id="overlay">
       <h2 id='portfolio' class='text-center text-white'>Projects</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <figure>
             <img id='pizza' src='/images/pizza.png' width=250px height=150px>
             <a href='https://wendyomollo.github.io/WizzaPizza/'>
-              <figcaption class='text-center text-white heartbeat'>Wizza Pizza</figcaption>
+              <figcaption class='text-center text-white'>Wizza Pizza</figcaption>
             </a>
             <p class='text-center text-white'>It is a pizza delivery website.</p>
           </figure>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <figure>
             <img id='delani' src='/images/delani.png' width=250px height=150px>
             <a href='https://wendyomollo.github.io/DelaniStudio/'>
-              <figcaption class='text-center text-white heartbeat'>Delani Studio</figcaption>
+              <figcaption class='text-center text-white'>Delani Studio</figcaption>
             </a>
             <p class='text-center text-white'>It is a portfolio for a programming studio.</p>
           </figure>
         </div>
-      </div>&nbsp;&nbsp;
-        <div class="row">
-            <div class="col-md-6">
+				 <div class="col-md-4">
               <figure>
                 <img id='exo' src='/images/exotica.png' width=250px height=150px>
                 <a href='https://firdausa7.github.io/Project2/'>
-                  <figcaption class='text-center text-white heartbeat'>Exotica</figcaption>
+                  <figcaption class='text-center text-white'>Exotica</figcaption>
                 </a>
                 <p class='text-center text-white'>This is a resort website.</p>
               </figure>
             </div>
-            <div class="col-md-6">
+      </div>&nbsp;&nbsp;
+        <div class="row">
+            <div class="col-md-4">
               <figure>
                 <img id='daktari' src='/images/daktari.png' width=250px height=150px>
                 <a href='https://firdausa7.github.io/Daktari-time/'>
-                  <figcaption class='text-center text-white heartbeat'>Daktari Time</figcaption>
+                  <figcaption class='text-center text-white'>Daktari Time</figcaption>
                 </a>
                 <p class='text-center text-white'>A website for booking an appointment to the doctor.</p>
               </figure>
             </div>
-      </div>&nbsp; &nbsp;
-      <div class='row'>
-        <div class='col-md-6'>
+						<div class='col-md-4'>
           <figure>
             <img id='princess' src="/images/princess.png" width='250px' height='150px'>
-            <a href='https://princessa.herokuapp.com/'><figcaption  class='text-center text-white heartbeat'>Princessa</figcaption></a>
+            <a href='https://princessa.herokuapp.com/'><figcaption  class='text-center text-white'>Princessa</figcaption></a>
             <p class='text-center text-white'>A game website where a user can assign princesses to a domain.</p>
           </figure>
         </div>
-        <div class='col-md-6'>
+        <div class='col-md-4'>
           <figure>
             <img id='quote' src='/images/quotes.png' width='250px' height='150px'>
-            <a href='https://wendyomollo.github.io/GetQuoty/'><figcaption class='text-center text-white heartbeat'>GetQuoty</figcaption></a>
+            <a href='https://wendyomollo.github.io/GetQuoty/'><figcaption class='text-center text-white'>GetQuoty</figcaption></a>
             <p class='text-center text-white'>A website for creating quotes</p>
           </figure>
         </div>
       </div>
-
   </div><br><br>
   <div class='container'>
     <h2 id='hobbies' class='text-center'>Skills</h2>
@@ -125,44 +111,49 @@
     <div class="row">
       <div class="col-md-4">
         <figure>
-          <img src="https://media-public.canva.com/MADBscarx28/1/thumbnail_large-1.jpg" width=200px height=150px alt="cooking">
+          <img src="https://media-public.canva.com/MADBscarx28/1/thumbnail_large-1.jpg" width=300px height=250px alt="cooking">
           <figcaption>Java</figcaption>
         </figure>
       </div>
       <div class="col-md-4">
         <figure>
-          <img src="https://cdn.pixabay.com/photo/2017/03/30/17/41/javascript-2189147__340.png"  width=200px height=150px alt="singing">
+          <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400__340.png"  width=300px height=250px alt="singing">
           <figcaption>Javascript</figcaption>
         </figure>
       </div>
 			<div class="col-md-4">
           <figure>
-            <img src="https://sisgain.com/service-images/ionic-top.png"  width=200px height=150px alt="singing">
+            <img src="https://cdn.pixabay.com/photo/2014/11/10/17/44/markup-525693__340.png"  width=300px height=250px alt="singing">
             <figcaption>XML</figcaption>
           </figure>
         </div>
-    </div>
+    </div>&nbsp;
 			<p class="text-center">I am familiar with the following frameworks:</p>
     <div class="row">
       <div class="col-md-4">
         <figure>
-          <img src="https://cdn.pixabay.com/photo/2013/10/22/07/56/android-199225__340.jpg"  width=200px height=150px alt="coding">
+          <img src="https://cdn.pixabay.com/photo/2013/10/22/07/56/android-199225__340.jpg" width=300px height=250px  alt="coding">
           <figcaption>Android</figcaption>
         </figure>
       </div>
       <div class="col-md-4">
         <figure>
-          <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/033/square_480/egghead-angular-material-course-sq.png"  width=200px height=150px alt="reading">
+          <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/033/square_480/egghead-angular-material-course-sq.png"  width=300px height=250px alt="reading">
           <figcaption>Angular</figcaption>
         </figure>
       </div>
       <div class="col-md-4">
           <figure>
-            <img src="https://sisgain.com/service-images/ionic-top.png"  width=200px height=150px alt="singing">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oj3yU-a_U837_moO_cJftjHD-Uj2-cP4BdOsQHfIPcmihMlf&s" width=300px height=250px   alt="singing">
             <figcaption>Ionic</figcaption>
           </figure>
         </div>
-    </div>
+				<div class="col-md-4">
+          <figure>
+            <img src="images/spark.png"   alt="singing">
+            <figcaption>Spark</figcaption>
+          </figure>
+        </div>
   </div><br>
 
   <div class='container text-center'>
